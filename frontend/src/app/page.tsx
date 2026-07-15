@@ -1,7 +1,15 @@
+import Navbar from "@/components/layout/Navbar/Navbar";
+import Hero from "@/components/sections/Hero/Hero";
+import Features from "@/components/sections/Features/Features";
+
 export default function HomePage() {
   return (
-    <main>
-      <h1>Welcome to NextHire AI 🚀</h1>
-    </main>
+    <>
+      <Navbar />
+      <main>
+        <Hero />
+        <Features />
+      </main>
+    </>
   );
 }
